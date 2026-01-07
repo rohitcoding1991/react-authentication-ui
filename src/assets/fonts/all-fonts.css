@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Inter100";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(../fonts/Inter/Inter-Thin.ttf);
+}
+
+.Inter100 {
+    font-family: var(--int-thin) !important;
+}
+@font-face {
+    font-family: "Inter200";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(../fonts/Inter/Inter-ExtraLight.ttf);
+}
+
+.Inter200 {
+    font-family: var(--int-extraLight) !important;
+}
+
+@font-face {
+    font-family: "Inter300";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Inter/Inter-Light.ttf);
+}
+
+.Inter300 {
+    font-family: var(--int-light) !important;
+}
+
+@font-face {
+    font-family: "Inter400";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Inter/Inter-Regular.ttf);
+}
+
+.Inter400 {
+    font-family: var(--int-regular) !important;
+}
+
+@font-face {
+    font-family: "Inter500";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/Inter/Inter-Medium.ttf);
+}
+
+.Inter500 {
+    font-family: var(--int-medium) !important;
+}
+
+@font-face {
+    font-family: "Inter600";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/Inter/Inter-SemiBold.ttf);
+}
+
+.Inter600 {
+    font-family: var(--int-semibold) !important;
+}
+
+@font-face {
+    font-family: "Inter700";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Inter/Inter-Bold.ttf);
+}
+
+.Inter700 {
+    font-family: var(--int-bold) !important;
+}
+
+@font-face {
+    font-family: "Inter800";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(../fonts/Inter/Inter-ExtraBold.ttf);
+}
+
+.Inter800 {
+    font-family: var(--int-extraBold) !important;
+}
+
+@font-face {
+    font-family: "Inter900";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(../fonts/Inter/Inter-Black.ttf);
+}
+
+.Inter900 {
+    font-family: var(--int-black) !important;
+}
