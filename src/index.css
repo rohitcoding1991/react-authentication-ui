@@ -1,0 +1,59 @@
+@import url(./assets/fonts/all-fonts.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+:root {
+  --primary: #312ecb;
+  --primary-light: #007aff;
+  --secondary: #e8faf7;
+  --white: #ffffff;
+  --black: black;
+  --int-thin: "Inter100";
+  --int-extraLight: "Inter200";
+  --int-light: "Inter300";
+  --int-regular: "Inter400";
+  --int-medium: "Inter500";
+  --int-semibold: "Inter600";
+  --int-bold: "Inter700";
+  --int-extraBold: "Inter800";
+  --int-black: "Inter900";
+}
+
+.divider {
+  position: relative;
+  text-align: center;
+}
+
+.divider-line {
+  border: none;
+  border-top: 1px solid #a2a2a2;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.divider-text {
+  background-color: #fff;
+  padding: 0 10px;
+  position: relative;
+}
